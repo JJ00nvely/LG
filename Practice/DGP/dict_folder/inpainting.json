@@ -7,18 +7,18 @@
     "update_G": true,
     "root_dir": "",
     "ftr_num": [
-        8,
-        8,
-        8,
-        8,
-        8
-    ],
-    "ft_num": [
         7,
         7,
         7,
         7,
         7
+    ],
+    "ft_num": [
+        8,
+        8,
+        8,
+        8,
+        8
     ],
     "lr_ratio": [
         0.7,
@@ -42,8 +42,8 @@
         1,
         10
     ],
-    "select_num": 400,
-    "sample_std": 0.3,
+    "select_num": 300,
+    "sample_std": 0.5,
     "iterations": [
         30,
         30,
@@ -61,7 +61,7 @@
     "z_lrs": [
         0.002,
         0.001,
-        0.0002,
+        2e-05,
         2e-05,
         1e-05
     ],
@@ -120,7 +120,7 @@
     "num_G_SV_itrs": 1,
     "num_D_SV_itrs": 1,
     "dist": false,
-    "update_embed": false,
+    "update_embed": true,
     "ftr_type": "Discriminator",
     "random_G": false,
     "no_tb": false,
