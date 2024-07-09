@@ -1,0 +1,8 @@
+numpy
+scikit-image
+scipy
+pillow<=6.2.2
+torchvision
+tensorboardX
+
+hello  world!
